@@ -24,9 +24,6 @@ public class ProductServlet extends HttpServlet {
 
         try (PrintWriter out = response.getWriter()) {
             
-            //String id = request.getParameter("id");
-            //int quantity = ProductDB.getQuantityForId(Integer.parseInt(id));
-            //out.println(quantity);
             ProductData.getQuantityForId();
             
         } catch (IOException ex) {
